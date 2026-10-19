@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ${APP_NAME}
+    name: backend
 
   datasource:
     url: ${DB_URL}
