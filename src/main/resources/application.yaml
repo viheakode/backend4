@@ -1,0 +1,23 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/viheakode_db
+    username: postgres
+    password: 1
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  secret-key: 8f$Jk@3pL!xQz7vN#rTy9&dHg*2BmW^sUa1E@oZqC%lX4VjK6R!nP#fYwT0
+  expiration-time: 86400000
