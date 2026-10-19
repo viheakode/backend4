@@ -20,8 +20,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Configuration
 @RequiredArgsConstructor
-@EnableWebSecurity
-@EnableMethodSecurity
+//@EnableWebSecurity
+//@EnableMethodSecurity
 public class SecurityConfig {
 
     private final CustomAuthenticationEntryPoint authenticationEntryPoint;
